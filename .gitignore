@@ -157,4 +157,20 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+# .idea/
+
+# React files
+.idea/
+.vscode/
+.React/finance_app/node_modules/
+.React/finance_appbuild/
+.DS_Store
+*.tgz
+my-app*
+template/src/__tests__/__snapshots__/
+lerna-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.changelog
+.npm/
